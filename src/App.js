@@ -1,9 +1,10 @@
 import React from 'react';
-
+import Navbar from './components/header';
+import './default.scss';
 function App() {
   return (
-    <div className="App">
-      <h1>MC</h1>
+    <div className="container">
+      <Navbar />
     </div>
   );
 }

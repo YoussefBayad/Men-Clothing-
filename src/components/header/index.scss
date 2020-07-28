@@ -1,0 +1,45 @@
+.navbar {
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  letter-spacing: -1.3rem;
+  font-size: 3rem;
+  flex: 1;
+}
+.right-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.8rem;
+  flex: 1;
+}
+.nav-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-item li {
+  padding-right: 4rem;
+}
+.filter-box {
+  border: 0.1rem solid;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.filter {
+  border: none;
+  outline: none;
+  height: 100%;
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1.7rem;
+}
+.filter::placeholder {
+  font-size: 1.5rem;
+}
