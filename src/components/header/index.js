@@ -7,9 +7,15 @@ const Navbar = () => {
       <h1 className="logo">MC</h1>
       <div className="right-nav">
         <ul className="nav-item">
-          <li>Catalog</li>
-          <li>Trends</li>
-          <li>Blog</li>
+          <li>
+            <a href="#">Catalog</a>
+          </li>
+          <li>
+            <a href="#">Trends</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
         </ul>
         <Filter />
       </div>
